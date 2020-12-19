@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=chrome">
+    <title>FAQ Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+	    <div class="header_navbar">
+		    <ul class="navbar_menu">
+			    <li onclick="alert('This will load the home page again!')" class="navbar_menu-item navbar_menu-item-logo ">
+                    ASK PERFUME
+                </li>
+			</ul>
+			<ul class="navbar_menu">
+			    <li class="navbar_menu-item ">
+                    <a onclick="alert('This will load the home page again!')" href="" class="navbar_menu-link">Home</a>
+                </li>
+                <li class="navbar_menu-item">
+                    <a onclick="alert('This will load the news page!')" href="" class="navbar_menu-link">News</a>
+                </li>
+                <li class="navbar_menu-item">
+                    <a onclick="alert('This will lead you to our blog!')" href="" class="navbar_menu-link">Blog</a>
+                </li>
+                <li class="navbar_menu-item">
+                    <a onclick="alert('Start sharing your thoughts by write something!')" href="" class="navbar_menu-link">Social</a>
+                </li>
+                <li class="navbar_menu-item">
+                    <a onclick="alert('Contact us for any queries!')" href="" class="navbar_menu-link">Contact Us</a>
+                </li>
+				
+			</ul>
+		</div>
+	</div>
+	
+	<div class="container">
+	    <div>
+		    <div class="container_images-setting">
+			    <img class="container_images" src="perfume_col.jpg" />
+			</div>
+			<div class="container_images-normal">
+				<img class="container_images_2" src="no5chanel.jfif"/>
+			</div>
+			<div class="container_text-setting">
+			    <a class="str_ifo_logo"> Can we help you to find your perfect perfume? </a> <br/>
+				<div class="text2-setting">
+				    <a class="in_search_bar"> Type in your favorite scent of perfume, we'll find for you! </a> <br/>
+				</div>
+				<div class="box-setting">
+				    <div class="search_bar">
+                        <input type="text" placeholder="Let us find it for you!">
+                        <a class="font-setting"><i class="fas fa-search-location"></i></a>
+                    </div>
+				</div>
+				<div class="box1">
+					<center style="font-size: 24px;" class="text-setting"> FIND YOUR FAVORITE <center> </br> 
+					<div class="text-setting2">
+					    <center style="font-size: 18px;" class="text_font"> By filtering your choice, we can give you your best scent!<br></br> </center>
+					</div>
+					<div class="click_but">
+					    <button type="button" onclick="myFunction()">Read More!</button>
+					</div>
+				</div>
+				<div class="box2">
+					<center style="font-size: 24px;" class="text-setting"> UPCOMING FRAGRANCES <center> </br>
+					<div class="text-setting2">
+					    <center style="font-size: 18px;" class="text_font"> Keep up-to-date with our latest news about perfume!<br></br> </center>
+					</div>
+					<div class="click_but">
+						<button type="button" onclick="myFunction()">Read More!</button>
+					</div>
+				</div>
+				<div class="box3">
+					<center style="font-size: 24px;" class="text-setting"> GETTING SOCIAL <center> </br>
+					<div class="text-setting2">
+					    <center style="font-size: 18px;" class="text_font"> Access here to read more about sharing posts on how to use perfume correctly!<br></br> </center>
+					</div>
+					<div class="click_but">		    
+					    <button type="button" onclick="myFunction()">Read More!</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="chat-popup" id="livechatbox">
+		<form action="/action_page.php" class="container-chat-box">
+		  <h1>Live Perfume Recommendation</h1>
+		  <textarea placeholder="Feel free to contact us!" name="msg" required></textarea>	  
+		  <button type="submit" class="btn">Send</button>
+		  <button type="button" class="btn exit" onclick="closeForm()">Exit</button>
+		</form>
+	  </div>
+	<div class="footer">
+	    <div class="footer_menu">
+		    <div class="footer_text">
+		        <a class="footer_text-font"> FREQUENTLY ASKED QUESTIONS (FAQs) </a>
+			</div>
+			<div class="footer_text2">
+			    <a>  </a>
+			</div>
+			<div class="footer_box1">
+			    <a style="font-size: large;" style="text-align: inherit;" style="padding-left: 20px;"> IDEAL SPRING SCENT  </a> </br>
+				<a> <br> By sorting and choosing from various bottles, we can recommend what is match with the vibe of Spring! </a> <br/>
+				
+			</div>
+			<div class="footer_box2">
+			    <a style="font-size: large;" style="text-align: inherit;"> SUMMER VIBE SCENT </a> <br/>
+				<a> <br> What should I wear in this hot weather? Let us help you! </a> <br/>
+			</div>
+			<div class="footer_box3">
+			    <a style="font-size: large;" style="text-align: inherit;"> SMELL OF AUTUMN </a> <br/>
+				<a> <br> In this cool weather, how about trying some new scents from our recommendations? </a> <br/>
+				
+			</div>
+			<div class="footer_box4">
+			    <a style="font-size: large;" style="text-align: inherit;"> COZY WINTER </a> <br/>
+				<a> <br> Something sweet for a cold vibe is absolutely on point! </a> <br/>
+				
+			</div>
+			<div class="footer_box5">
+			    <a style="font-size: large;" style="text-align: inherit;" style="padding-left: 20px;"> IMPORTANT OCCASIONS </a> <br/>
+				<a> <br> Go to an important meeting and still do not know what to wear? </a> <br/>
+				<a> Our system will generate some scents for you! </a>
+			</div>
+			<div class="footer_box6">
+			    <a style="font-size: large;" style="text-align: inherit;"> FIRE NIGHTS </a> <br/>
+				<a> <br> Still concerning what to wear for the party tonight? </a> <br/>
+				<a> Trying something sexy? Click to know more. </a>
+				
+			</div>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
